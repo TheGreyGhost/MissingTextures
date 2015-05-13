@@ -20,7 +20,8 @@ public class ClientOnlyProxy extends CommonProxy
   {
     super.preInit();
 
-    missingtextures.mbe01_block_simple.StartupClientOnly.preInitClientOnly();
+    missingtextures.mt01_everything_ok.StartupClientOnly.preInitClientOnly();
+    missingtextures.mt02_blockstates_filename_mismatch.StartupClientOnly.preInitClientOnly();
     missingtextures.mbe02_block_partial.StartupClientOnly.preInitClientOnly();
     missingtextures.mbe03_block_variants.StartupClientOnly.preInitClientOnly();
     missingtextures.mbe10_item_simple.StartupClientOnly.preInitClientOnly();
@@ -34,8 +35,8 @@ public class ClientOnlyProxy extends CommonProxy
   public void init()
   {
     super.init();
-    missingtextures.mbe01_block_simple.StartupClientOnly.initClientOnly();
-    missingtextures.mbe02_block_partial.StartupClientOnly.initClientOnly();
+    missingtextures.mt01_everything_ok.StartupClientOnly.initClientOnly();
+    missingtextures.mt02_blockstates_filename_mismatch.StartupClientOnly.initClientOnly();
     missingtextures.mbe03_block_variants.StartupClientOnly.initClientOnly();
     missingtextures.mbe10_item_simple.StartupClientOnly.initClientOnly();
     missingtextures.mbe11_item_variants.StartupClientOnly.initClientOnly();
@@ -47,8 +48,8 @@ public class ClientOnlyProxy extends CommonProxy
   public void postInit()
   {
     super.postInit();
-    missingtextures.mbe01_block_simple.StartupClientOnly.postInitClientOnly();
-    missingtextures.mbe02_block_partial.StartupClientOnly.postInitClientOnly();
+    missingtextures.mt01_everything_ok.StartupClientOnly.postInitClientOnly();
+    missingtextures.mt02_blockstates_filename_mismatch.StartupClientOnly.postInitClientOnly();
     missingtextures.mbe03_block_variants.StartupClientOnly.postInitClientOnly();
     missingtextures.mbe10_item_simple.StartupClientOnly.postInitClientOnly();
     missingtextures.mbe11_item_variants.StartupClientOnly.postInitClientOnly();

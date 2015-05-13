@@ -15,8 +15,8 @@ public abstract class CommonProxy {
   public void preInit()
   {
 
-    missingtextures.mbe01_block_simple.StartupCommon.preInitCommon();
-    missingtextures.mbe02_block_partial.StartupCommon.preInitCommon();
+    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
+    missingtextures.mt02_blockstates_filename_mismatch.StartupCommon.preInitCommon();
     missingtextures.mbe03_block_variants.StartupCommon.preInitCommon();
     missingtextures.mbe10_item_simple.StartupCommon.preInitCommon();
     missingtextures.mbe11_item_variants.StartupCommon.preInitCommon();
@@ -28,8 +28,8 @@ public abstract class CommonProxy {
    */
   public void init()
   {
-    missingtextures.mbe01_block_simple.StartupCommon.initCommon();
-    missingtextures.mbe02_block_partial.StartupCommon.initCommon();
+    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
+    missingtextures.mt02_blockstates_filename_mismatch.StartupCommon.initCommon();
     missingtextures.mbe03_block_variants.StartupCommon.initCommon();
     missingtextures.mbe10_item_simple.StartupCommon.initCommon();
     missingtextures.mbe11_item_variants.StartupCommon.initCommon();
@@ -40,8 +40,8 @@ public abstract class CommonProxy {
    */
   public void postInit()
   {
-    missingtextures.mbe01_block_simple.StartupCommon.postInitCommon();
-    missingtextures.mbe02_block_partial.StartupCommon.postInitCommon();
+    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+    missingtextures.mt02_blockstates_filename_mismatch.StartupCommon.postInitCommon();
     missingtextures.mbe03_block_variants.StartupCommon.postInitCommon();
     missingtextures.mbe10_item_simple.StartupCommon.postInitCommon();
     missingtextures.mbe11_item_variants.StartupCommon.postInitCommon();

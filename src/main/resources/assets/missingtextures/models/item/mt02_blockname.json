@@ -1,5 +1,5 @@
 {
-  "parent": "missingtextures:block/mbe01_block_simple_model",
+  "parent": "missingtextures:block/mt02_block_model",
   "display": {
     "thirdperson": {
       "rotation": [ 10, -45, 170 ],
