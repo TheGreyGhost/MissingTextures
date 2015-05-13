@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "boolean=false": { "model": "missingtextures:mt08_block_model_false" },
+        "boolean=not_true": { "model": "missingtextures:mt08_block_model_true" }
+    }
+}

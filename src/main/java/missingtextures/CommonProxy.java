@@ -17,9 +17,22 @@ public abstract class CommonProxy {
 
     missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
     missingtextures.mt02_blockstates_filename_mismatch.StartupCommon.preInitCommon();
-    missingtextures.mbe03_block_variants.StartupCommon.preInitCommon();
-    missingtextures.mbe10_item_simple.StartupCommon.preInitCommon();
-    missingtextures.mbe11_item_variants.StartupCommon.preInitCommon();
+    missingtextures.mt03_blockstates_wrong_domain.StartupCommon.preInitCommon();
+    missingtextures.mt04_blockstates_forgot_domain.StartupCommon.preInitCommon();
+    missingtextures.mt05_blockstates_variant_mismatch.StartupCommon.preInitCommon();
+    missingtextures.mt06_blockstates_model_filename_wrong.StartupCommon.preInitCommon();
+
+    missingtextures.mt07_blockstates_normal_missing.StartupCommon.preInitCommon();
+    missingtextures.mt08_blockstates_variant_missing.StartupCommon.preInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
+
   }
 
   /**
@@ -30,9 +43,23 @@ public abstract class CommonProxy {
   {
     missingtextures.mt01_everything_ok.StartupCommon.initCommon();
     missingtextures.mt02_blockstates_filename_mismatch.StartupCommon.initCommon();
-    missingtextures.mbe03_block_variants.StartupCommon.initCommon();
-    missingtextures.mbe10_item_simple.StartupCommon.initCommon();
-    missingtextures.mbe11_item_variants.StartupCommon.initCommon();
+    missingtextures.mt03_blockstates_wrong_domain.StartupCommon.initCommon();
+    missingtextures.mt04_blockstates_forgot_domain.StartupCommon.initCommon();
+    missingtextures.mt05_blockstates_variant_mismatch.StartupCommon.initCommon();
+    missingtextures.mt06_blockstates_model_filename_wrong.StartupCommon.initCommon();
+
+    missingtextures.mt07_blockstates_normal_missing.StartupCommon.initCommon();
+    missingtextures.mt08_blockstates_variant_missing.StartupCommon.initCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.initCommon();
   }
 
   /**
@@ -42,9 +69,27 @@ public abstract class CommonProxy {
   {
     missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
     missingtextures.mt02_blockstates_filename_mismatch.StartupCommon.postInitCommon();
-    missingtextures.mbe03_block_variants.StartupCommon.postInitCommon();
-    missingtextures.mbe10_item_simple.StartupCommon.postInitCommon();
-    missingtextures.mbe11_item_variants.StartupCommon.postInitCommon();
+    missingtextures.mt03_blockstates_wrong_domain.StartupCommon.postInitCommon();
+    missingtextures.mt04_blockstates_forgot_domain.StartupCommon.postInitCommon();
+    missingtextures.mt05_blockstates_variant_mismatch.StartupCommon.postInitCommon();
+    missingtextures.mt06_blockstates_model_filename_wrong.StartupCommon.postInitCommon();
+
+    missingtextures.mt07_blockstates_normal_missing.StartupCommon.postInitCommon();
+    missingtextures.mt08_blockstates_variant_missing.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+
   }
 
   // helper to determine whether the given player is in creative mode

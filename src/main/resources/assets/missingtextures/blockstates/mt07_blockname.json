@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "not_normal": { "model": "missingtextures:mt07_block_model" }
+    }
+}

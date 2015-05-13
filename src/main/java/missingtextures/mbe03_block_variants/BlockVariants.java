@@ -76,8 +76,8 @@ public class BlockVariants extends Block
   }
 
   // Our block has two properties:
-  // 1) PROPERTYFACING for which way the sign points (east, west, north, south).  EnumFacing is as standard used by vanilla for a number of blocks.
-  // 2) PROPERTYCOLOUR for the sign's colour.  ColoursEnum is a custom class (see below)
+  // 1) FIRSTPROPERTY for which way the sign points (east, west, north, south).  EnumFacing is as standard used by vanilla for a number of blocks.
+  // 2) SECONDPROPERTY for the sign's colour.  ColoursEnum is a custom class (see below)
   public static final PropertyDirection PROPERTYFACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
   public static final PropertyEnum PROPERTYCOLOUR = PropertyEnum.create("colour", EnumColour.class);
 

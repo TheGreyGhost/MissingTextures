@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "wrongdomain:mt03_block_model" }
+    }
+}

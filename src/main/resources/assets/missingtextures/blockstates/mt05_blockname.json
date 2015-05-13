@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "secondproperty=second, firstproperty=first": { "model": "missingtextures:mt05_block_model" }
+    }
+}

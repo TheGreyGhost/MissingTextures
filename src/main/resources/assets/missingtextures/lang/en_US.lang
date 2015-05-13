@@ -1,2 +1,8 @@
 tile.mt01_blockname.name=MT01: no error
 tile.mt02_blockname_mismatch.name=MT02: blockstates json filename doesnt match registered block name
+tile.mt03_blockname.name=MT03: blockstates json has wrong domain for a model
+tile.mt04_blockname.name=MT04: blockstates json has no domain before model filename
+tile.mt05_blockname.name=MT05: block variant name doesnt match order of blockstates
+tile.mt06_blockname.name=MT06: blockstates json has a model filename which doesnt exist
+tile.mt07_blockname.name=MT07: for block without variants- normal tag not found in blockstates json
+tile.mt08_blockname.name=MT08: a block variant name not found in blockstates json
