@@ -1,0 +1,7 @@
+{
+    "parent": "missingtextures:block/mbe03_block_variants_model_shape",
+    "textures": {
+        "sign": "missingtextures:blocks/mbe03_block_variants_sign_green",
+        "particle": "blocks/wool_colored_green"
+    }
+}

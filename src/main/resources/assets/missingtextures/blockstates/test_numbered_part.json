@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "missingtextures:test_numbered_part_model" }
+    }
+}

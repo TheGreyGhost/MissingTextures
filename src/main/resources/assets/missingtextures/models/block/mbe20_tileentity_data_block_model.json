@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "missingtextures:blocks/mbe20_tileentity_data_icon"
+    }
+}

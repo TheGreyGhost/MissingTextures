@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "missingtextures:test_torch_model_fixed" }
+    }
+}

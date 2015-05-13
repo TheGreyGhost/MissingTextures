@@ -1,0 +1,16 @@
+[
+{
+  "modid": "missingtextures",
+  "name": "Missing Textures (mcmod_info)",
+  "description": "Track down your Missing Texture problem (mcmod_info)",
+  "version": "1.0_mcmod_info",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TGG"],
+  "credits": "The Forge, MCP, and FML guys, for making it possible",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
