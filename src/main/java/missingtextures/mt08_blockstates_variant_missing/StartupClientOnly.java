@@ -28,7 +28,6 @@ public class StartupClientOnly
 
     itemModelResourceLocation = new ModelResourceLocation("missingtextures:mt08_blockname_true", "inventory");
     Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(itemBlockSimple, 1, itemModelResourceLocation);
-
   }
 
   public static void postInitClientOnly()

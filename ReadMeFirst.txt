@@ -1,3 +1,36 @@
+
+
+Further errors:
+9 Register block in init
+10 error parsing blockstates file (incorrect json)
+11 Wrong parent model in your block model.json file
+12 Missing 'block' in parent model in your block model.json file
+13 missing tag (eg textures) in block model json
+14 missing tag (eg parent) in block model json
+15 error parsing model file (incorrect json)
+16 required texture not defined
+17 Texture filenames incorrect in block model.json file
+18 Texture domain incorrect in block model.json
+19 Texture domain forgotten in block model.json
+20 malformed texture
+----------------
+
+Items
+Not properly register with Mesher
+Variants: not adding variants to ModelBakery
+Register item in init,
+Register mesher in preinit
+MRL for mesher forgot domain
+MRL for mesher domain wrong
+MRL for mesher forgot inventory
+MRL for mesher misspelled / item model file doesn't exist
+Mesher metadata wrong
+Item model parent tag missing
+Item model parent model doesn't exist
+Item model parent model domain wrong
+Item model parent model domain forgotten
+Non-variants: item model filename doesn't match
+
 MinecraftByExample
 ==================
 
