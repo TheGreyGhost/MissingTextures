@@ -18,7 +18,7 @@ public class StartupClientOnly
   public static void initClientOnly()
   {
     Item itemBlockSimple = GameRegistry.findItem("missingtextures", "mt09_blockname");
-    ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation("missingtextures:mt02_blockname", "inventory");
+    ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation("missingtextures:mt09_blockname", "inventory");
     final int DEFAULT_ITEM_SUBTYPE = 0;
     Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(itemBlockSimple, DEFAULT_ITEM_SUBTYPE, itemModelResourceLocation);
   }

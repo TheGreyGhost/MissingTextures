@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "not_all": "missingtextures:blocks/mt_block_texture"
+    }
+}

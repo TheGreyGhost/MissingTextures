@@ -12,12 +12,12 @@ public class StartupCommon
 
   public static void preInitCommon()
   {
-    blockMT09 = (BlockMT09)(new BlockMT09().setUnlocalizedName("mt02_blockname"));
-    GameRegistry.registerBlock(blockMT09, "mt02_blockname");
   }
 
   public static void initCommon()
   {
+    blockMT09 = (BlockMT09)(new BlockMT09().setUnlocalizedName("mt09_blockname"));
+    GameRegistry.registerBlock(blockMT09, "mt09_blockname");
   }
 
   public static void postInitCommon()

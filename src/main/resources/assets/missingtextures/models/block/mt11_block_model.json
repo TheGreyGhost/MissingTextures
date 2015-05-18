@@ -1,0 +1,6 @@
+{
+    "parent": "block/bad_parent_mt11",
+    "textures": {
+        "all": "missingtextures:blocks/mt_block_texture"
+    }
+}

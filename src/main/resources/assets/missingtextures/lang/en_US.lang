@@ -6,3 +6,16 @@ tile.mt05_blockname.name=MT05: block variant name doesnt match order of blocksta
 tile.mt06_blockname.name=MT06: blockstates json has a model filename which doesnt exist
 tile.mt07_blockname.name=MT07: for block without variants- normal tag not found in blockstates json
 tile.mt08_blockname.name=MT08: a block variant name not found in blockstates json
+tile.mt09_blockname.name=MT09: the block was registered in init instead of preInit
+tile.mt10_blockname.name=MT10: the blockstates json file is bad (syntax error)
+tile.mt11_blockname.name=MT11: block model has wrong parent (not found)
+tile.mt12_blockname.name=MT12: block model doesn't have block in parent path
+tile.mt13_blockname.name=MT13: block model is missing the texture tag
+tile.mt14_blockname.name=MT14: block model is missing the parent tag
+tile.mt15_blockname.name=MT15: block model json is bad (syntax error)
+tile.mt16_blockname.name=MT16: block model has no texture filename for one of the textures
+tile.mt17_blockname.name=MT17: block model texture filename is wrong (not found)
+tile.mt18_blockname.name=MT18: block model texture domain is wrong
+tile.mt19_blockname.name=MT19: block model texture domain is missing
+tile.mt20_blockname.name=MT20: texture file is malformed
+
