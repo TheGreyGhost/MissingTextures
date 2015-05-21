@@ -1,6 +1,5 @@
-package missingtextures.mt64_itemmodel_filename_wrong;
+package missingtextures.mt70_texture_domain_missing;
 
-import missingtextures.mt65_itemblock_parent_model_wrong.BlockMT65;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
@@ -18,14 +17,14 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  */
 public class StartupCommon
 {
-  public static BlockMT65 blockMT65;
+  public static ItemMT70 itemMT70;  // this holds the unique instance of your block
 
   public static void preInitCommon()
   {
-    blockMT65 = (BlockMT65)(new BlockMT65().setUnlocalizedName("mt64_blockname"));
-    GameRegistry.registerBlock(blockMT65, "mt64_blockname");
+    // each instance of your item should have a name that is unique within your mod.  use lower case.
+    itemMT70 = (ItemMT70)(new ItemMT70().setUnlocalizedName("mt70_itemname"));
+    GameRegistry.registerItem(itemMT70, "mt70_itemname");
   }
-
 
   public static void initCommon()
   {

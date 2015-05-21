@@ -1,4 +1,4 @@
-package missingtextures.mt65_item_builtin_wrong;
+package missingtextures.mt64_itemmodel_filename_wrong;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -11,9 +11,9 @@ import net.minecraftforge.fml.relauncher.SideOnly;
  * User: The Grey Ghost
  * Date: 10/05/2015
  */
-public class BlockMT65 extends Block
+public class BlockMT64 extends Block
 {
-  public BlockMT65()
+  public BlockMT64()
   {
     super(Material.rock);
     this.setCreativeTab(CreativeTabs.tabBlock);   // the block will appear on the Blocks tab in creative

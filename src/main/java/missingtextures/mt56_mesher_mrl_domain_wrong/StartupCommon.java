@@ -22,8 +22,8 @@ public class StartupCommon
   public static void preInitCommon()
   {
     // each instance of your item should have a name that is unique within your mod.  use lower case.
-    itemMT56 = (ItemMT56)(new ItemMT56().setUnlocalizedName("mt55_itemname"));
-    GameRegistry.registerItem(itemMT56, "mt55_itemname");
+    itemMT56 = (ItemMT56)(new ItemMT56().setUnlocalizedName("mt56_itemname"));
+    GameRegistry.registerItem(itemMT56, "mt56_itemname");
   }
 
   public static void initCommon()

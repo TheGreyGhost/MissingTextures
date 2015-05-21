@@ -22,8 +22,8 @@ public class StartupClientOnly
   public static void preInitClientOnly()
   {
 //    need to add the variants to the bakery so it knows what models are available for rendering the different subtypes
-    ModelBakery.addVariantName(StartupCommon.itemMT52,  "missingtextures:mt52_itemmodel_1",
-                               "missingtextures:mt52_itemmodel_2"
+    ModelBakery.addVariantName(StartupCommon.itemMT52,  "missingtextures:mt52_itemmodel_1"
+//            , "missingtextures:mt52_itemmodel_2"
     );
   }
 

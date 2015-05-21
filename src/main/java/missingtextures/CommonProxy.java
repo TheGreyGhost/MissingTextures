@@ -50,9 +50,12 @@ public abstract class CommonProxy {
     missingtextures.mt62_itemmode_parent_domain_wrong.StartupCommon.preInitCommon();
     missingtextures.mt63_itemmodel_parent_domain_missing.StartupCommon.preInitCommon();
     missingtextures.mt64_itemmodel_filename_wrong.StartupCommon.preInitCommon();
-//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
-//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
-//    missingtextures.mt01_everything_ok.StartupCommon.preInitCommon();
+    missingtextures.mt65_itemblock_parent_model_wrong.StartupCommon.preInitCommon();
+    missingtextures.mt66_item_builtin_wrong.StartupCommon.preInitCommon();
+    missingtextures.mt67_texture_layer0_missing.StartupCommon.preInitCommon();
+    missingtextures.mt68_texture_filename_wrong.StartupCommon.preInitCommon();
+    missingtextures.mt69_texture_domain_wrong.StartupCommon.preInitCommon();
+    missingtextures.mt70_texture_domain_missing.StartupCommon.preInitCommon();
 
   }
 
@@ -97,6 +100,12 @@ public abstract class CommonProxy {
     missingtextures.mt62_itemmode_parent_domain_wrong.StartupCommon.initCommon();
     missingtextures.mt63_itemmodel_parent_domain_missing.StartupCommon.initCommon();
     missingtextures.mt64_itemmodel_filename_wrong.StartupCommon.initCommon();
+    missingtextures.mt65_itemblock_parent_model_wrong.StartupCommon.initCommon();
+    missingtextures.mt66_item_builtin_wrong.StartupCommon.initCommon();
+    missingtextures.mt67_texture_layer0_missing.StartupCommon.initCommon();
+    missingtextures.mt68_texture_filename_wrong.StartupCommon.initCommon();
+    missingtextures.mt69_texture_domain_wrong.StartupCommon.initCommon();
+    missingtextures.mt70_texture_domain_missing.StartupCommon.initCommon();
   }
 
   /**
@@ -139,11 +148,12 @@ public abstract class CommonProxy {
     missingtextures.mt62_itemmode_parent_domain_wrong.StartupCommon.postInitCommon();
     missingtextures.mt63_itemmodel_parent_domain_missing.StartupCommon.postInitCommon();
     missingtextures.mt64_itemmodel_filename_wrong.StartupCommon.postInitCommon();
-//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
-//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
-//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
-//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
-//    missingtextures.mt01_everything_ok.StartupCommon.postInitCommon();
+    missingtextures.mt65_itemblock_parent_model_wrong.StartupCommon.postInitCommon();
+    missingtextures.mt66_item_builtin_wrong.StartupCommon.postInitCommon();
+    missingtextures.mt67_texture_layer0_missing.StartupCommon.postInitCommon();
+    missingtextures.mt68_texture_filename_wrong.StartupCommon.postInitCommon();
+    missingtextures.mt69_texture_domain_wrong.StartupCommon.postInitCommon();
+    missingtextures.mt70_texture_domain_missing.StartupCommon.postInitCommon();
 
   }
 

@@ -1,4 +1,4 @@
-package missingtextures.mt65_item_builtin_wrong;
+package missingtextures.mt65_itemblock_parent_model_wrong;
 
 import net.minecraftforge.fml.common.registry.GameRegistry;
 

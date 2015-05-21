@@ -1,8 +1,5 @@
 {
-    "parent": "builtin/generated",
-    "textures": {
-        "layer0": "missingtextures:items/mt_item_texture"
-    },
+    "parent": "missingtextures:block/mt64_block_model",
     "display": {
         "thirdperson": {
             "rotation": [ -90, 0, 0 ],

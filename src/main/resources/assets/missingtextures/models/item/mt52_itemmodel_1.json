@@ -1,7 +1,8 @@
 {
     "parent": "builtin/generated",
     "textures": {
-        "layer0": "missingtextures:items/mt_item_texture"
+        "layer0": "missingtextures:items/mt_item_texture",
+        "layer1": "missingtextures:items/mt_item_texture1"
     },
     "display": {
         "thirdperson": {

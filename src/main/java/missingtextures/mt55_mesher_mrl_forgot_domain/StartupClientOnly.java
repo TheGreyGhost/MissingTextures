@@ -25,7 +25,7 @@ public class StartupClientOnly
   public static void initClientOnly()
   {
     // required in order for the renderer to know how to render your item.  Likely to change in the near future.
-    ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation("missingtextures:mt55_itemname", "inventory");
+    ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation("mt55_itemname", "inventory");
     final int DEFAULT_ITEM_SUBTYPE = 0;
     Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(StartupCommon.itemMT55, DEFAULT_ITEM_SUBTYPE, itemModelResourceLocation);
   }

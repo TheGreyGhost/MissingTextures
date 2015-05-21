@@ -1,4 +1,4 @@
-package missingtextures.mt61_itemmodel_parent_filename_wrong;
+package missingtextures.mt67_texture_layer0_missing;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -11,9 +11,9 @@ import net.minecraft.item.Item;
  * For background information on items see here http://greyminecraftcoder.blogspot.com/2013/12/items.html
  *   and here http://greyminecraftcoder.blogspot.com.au/2014/12/item-rendering-18.html
  */
-public class ItemMT61 extends Item
+public class ItemMT67 extends Item
 {
-  public ItemMT61()
+  public ItemMT67()
   {
     final int MAXIMUM_NUMBER_OF_FROGS = 6;
     this.setMaxStackSize(MAXIMUM_NUMBER_OF_FROGS);

@@ -1,5 +1,5 @@
 {
-    "parent": "builtin/generated",
+    "parent": "builtin_wrong/generated",
     "textures": {
         "layer0": "missingtextures:items/mt_item_texture"
     },

@@ -54,7 +54,12 @@ public class ClientOnlyProxy extends CommonProxy
     missingtextures.mt62_itemmode_parent_domain_wrong.StartupClientOnly.preInitClientOnly();
     missingtextures.mt63_itemmodel_parent_domain_missing.StartupClientOnly.preInitClientOnly();
     missingtextures.mt64_itemmodel_filename_wrong.StartupClientOnly.preInitClientOnly();
-
+    missingtextures.mt65_itemblock_parent_model_wrong.StartupClientOnly.preInitClientOnly();
+    missingtextures.mt66_item_builtin_wrong.StartupClientOnly.preInitClientOnly();
+    missingtextures.mt67_texture_layer0_missing.StartupClientOnly.preInitClientOnly();
+    missingtextures.mt68_texture_filename_wrong.StartupClientOnly.preInitClientOnly();
+    missingtextures.mt69_texture_domain_wrong.StartupClientOnly.preInitClientOnly();
+    missingtextures.mt70_texture_domain_missing.StartupClientOnly.preInitClientOnly();
   }
 
   /**
@@ -99,8 +104,12 @@ public class ClientOnlyProxy extends CommonProxy
     missingtextures.mt62_itemmode_parent_domain_wrong.StartupClientOnly.initClientOnly();
     missingtextures.mt63_itemmodel_parent_domain_missing.StartupClientOnly.initClientOnly();
     missingtextures.mt64_itemmodel_filename_wrong.StartupClientOnly.initClientOnly();
-//    missingtextures.mt01_everything_ok.StartupClientOnly.initClientOnly();
-
+    missingtextures.mt65_itemblock_parent_model_wrong.StartupClientOnly.initClientOnly();
+    missingtextures.mt66_item_builtin_wrong.StartupClientOnly.initClientOnly();
+    missingtextures.mt67_texture_layer0_missing.StartupClientOnly.initClientOnly();
+    missingtextures.mt68_texture_filename_wrong.StartupClientOnly.initClientOnly();
+    missingtextures.mt69_texture_domain_wrong.StartupClientOnly.initClientOnly();
+    missingtextures.mt70_texture_domain_missing.StartupClientOnly.initClientOnly();
 
   }
 
@@ -144,10 +153,12 @@ public class ClientOnlyProxy extends CommonProxy
     missingtextures.mt62_itemmode_parent_domain_wrong.StartupClientOnly.postInitClientOnly();
     missingtextures.mt63_itemmodel_parent_domain_missing.StartupClientOnly.postInitClientOnly();
     missingtextures.mt64_itemmodel_filename_wrong.StartupClientOnly.postInitClientOnly();
-//    missingtextures.mt01_everything_ok.StartupClientOnly.postInitClientOnly();
-//    missingtextures.mt01_everything_ok.StartupClientOnly.postInitClientOnly();
-//    missingtextures.mt01_everything_ok.StartupClientOnly.postInitClientOnly();
-//    missingtextures.mt01_everything_ok.StartupClientOnly.postInitClientOnly();
+    missingtextures.mt65_itemblock_parent_model_wrong.StartupClientOnly.postInitClientOnly();
+    missingtextures.mt66_item_builtin_wrong.StartupClientOnly.postInitClientOnly();
+    missingtextures.mt67_texture_layer0_missing.StartupClientOnly.postInitClientOnly();
+    missingtextures.mt68_texture_filename_wrong.StartupClientOnly.postInitClientOnly();
+    missingtextures.mt69_texture_domain_wrong.StartupClientOnly.postInitClientOnly();
+    missingtextures.mt70_texture_domain_missing.StartupClientOnly.postInitClientOnly();
 
   }
 

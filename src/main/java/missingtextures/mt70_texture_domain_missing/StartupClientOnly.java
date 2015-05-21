@@ -1,4 +1,4 @@
-package missingtextures.mt58_mesher_model_filename_wrong;
+package missingtextures.mt70_texture_domain_missing;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
@@ -25,9 +25,9 @@ public class StartupClientOnly
   public static void initClientOnly()
   {
     // required in order for the renderer to know how to render your item.  Likely to change in the near future.
-    ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation("missingtextures:mt58_itemname_wrong", "inventory");
+    ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation("missingtextures:mt70_itemname", "inventory");
     final int DEFAULT_ITEM_SUBTYPE = 0;
-    Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(StartupCommon.itemMT58, DEFAULT_ITEM_SUBTYPE, itemModelResourceLocation);
+    Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(StartupCommon.itemMT70, DEFAULT_ITEM_SUBTYPE, itemModelResourceLocation);
   }
 
 public static void postInitClientOnly()
